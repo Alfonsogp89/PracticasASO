@@ -1,0 +1,9 @@
+total 116
+drwxrwxr-x 2 alfonso alfonso  4096 sep 24 09:52 .
+drwxrwxr-x 4 alfonso alfonso  4096 sep 24 09:16 ..
+-rwxrwxr-x 1 alfonso alfonso 17496 sep 24 09:15 hello
+-rw-rw---- 1 alfonso alfonso   210 sep 24 09:14 hello.c
+-rwx------ 1 alfonso alfonso     0 sep 24 09:53 listado
+-rw-rw-r-- 1 alfonso alfonso   162 sep 22 11:55 Makefile
+-rwxrwxr-x 1 alfonso alfonso 77128 sep 24 09:52 shell_ls_redir
+-rw-rw-r-- 1 alfonso alfonso  1685 sep 24 09:28 shell_ls_redir.c
