@@ -1,4 +1,4 @@
-# Práctica: Ampliación de Sistemas Operativos • Semana 1
+# Práctica: Ampliación de Sistemas Operativos 
 
 Este directorio contiene los materiales y ejemplos correspondientes a la **Semana 1** de prácticas de la asignatura Ampliación de Sistemas Operativos.
 
