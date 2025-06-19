@@ -1,45 +1,46 @@
 # Práctica: Ampliación de Sistemas Operativos • Semana 1
 
-Este directorio contiene los materiales y ejemplos correspondientes a la primera semana de prácticas de la asignatura **Ampliación de Sistemas Operativos**.
+Este directorio contiene los materiales y ejemplos correspondientes a la **Semana 1** de prácticas de la asignatura Ampliación de Sistemas Operativos.
 
-## Estructura
+## Estructura de la práctica
 
-- **doc/**  
-  Documentación de la práctica, incluyendo enunciados, imágenes explicativas y referencias útiles.
-- **src/**  
-  Código fuente en C de los ejemplos y ejercicios propuestos en la práctica.
+La práctica se divide en dos partes principales:
 
-## Contenido
+### 1. Parte de llamadas al sistema (syscalls)
 
-### Documentación
+En esta parte se trabajan conceptos fundamentales de programación en C y el uso de llamadas al sistema en entornos UNIX/Linux. Incluye:
 
-- `doc/Semana1.md`:  
-  Guía principal de la práctica. Explica cómo instalar y configurar Visual Studio Code, editar, compilar, ejecutar y depurar código C, así como el manejo de argumentos de línea de comandos y punteros en C.
-- `doc/img/`:  
-  Imágenes de apoyo para la explicación de conceptos (diagramas, ejemplos de memoria, etc.).
+- **Documentación**:  
+  - [Semana1.md](doc/Semana1.md): Explicación detallada sobre la instalación y uso de Visual Studio Code, edición, compilación y depuración de código C, manejo de argumentos de línea de comandos, punteros y referencias útiles.
+- **Ejercicios y ejemplos en C**:
+  - Procesamiento de argumentos con `getopt()`
+  - Gestión de memoria dinámica con `malloc()` y `free()`
+  - Manejo de punteros
+  - Ejemplos de compilación, ejecución y depuración
+- **Archivos fuente**:  
+  - Ubicados en `src/`, incluyen ejemplos como `hello.c`, `getopt.c`, `depurame.c`, `punteros.c`, entre otros.
 
-### Código fuente
+### 2. Parte de programación en xv6
 
-- Ejemplos básicos en C para:
-  - Compilación y ejecución (`hello.c`)
-  - Manejo de argumentos de línea de comandos (`getopt.c`)
-  - Gestión de memoria dinámica (`depurame.c`)
-  - Manipulación de punteros (`punteros.c`)
-  - Otros ejercicios propuestos en la práctica
+En esta parte se explora el funcionamiento interno de un sistema operativo tipo UNIX a través del sistema educativo xv6. Se estudian y modifican componentes del kernel relacionados con:
 
-## Temas principales
+- Implementación y manejo de llamadas al sistema (syscalls) en xv6
+- Gestión de procesos, memoria y archivos
+- Ejercicios prácticos sobre el código fuente de xv6
 
-- Uso de Visual Studio Code para desarrollo en C
-- Compilación y depuración de programas
-- Procesamiento de argumentos de línea de comandos con `getopt()`
-- Gestión de memoria dinámica con `malloc()` y `free()`
-- Manejo de punteros en C
+El código fuente de xv6 se encuentra en el directorio `/xv6/xv6/` relativo a este README.
 
-## Recomendaciones
+## Recomendaciones de uso
 
-- Leer primero la documentación en `doc/Semana1.md`.
-- Compilar y ejecutar los ejemplos en `src/` para afianzar los conceptos.
-- Consultar las referencias incluidas para ampliar información sobre C y llamadas al sistema.
+- Comienza leyendo la documentación en `doc/Semana1.md`.
+- Compila y ejecuta los ejemplos de `src/` para afianzar los conceptos de syscalls en C.
+- Consulta y explora el código de xv6 para comprender cómo se implementan las llamadas al sistema a bajo nivel.
+- Utiliza Visual Studio Code para editar, compilar y depurar el código, siguiendo las recomendaciones de la documentación.
+
+## Referencias
+
+- [Semana1.md](doc/Semana1.md): Documentación principal de la práctica.
+- [xv6-public](https://pdos.csail.mit.edu/6.828/2018/xv6.html): Página oficial de xv6.
 
 ---
 
