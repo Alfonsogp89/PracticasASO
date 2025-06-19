@@ -43,7 +43,7 @@ En esta parte se explora el funcionamiento interno de un sistema operativo tipo 
 - Gestión de procesos, memoria y archivos
 - Ejercicios prácticos sobre el código fuente de xv6
 
-El código fuente de xv6 se encuentra en el directorio `../../../../xv6/xv6/` relativo a este README.
+El código fuente de xv6 se encuentra en el directorio `/xv6/xv6/` relativo a este README.
 
 ## Recomendaciones de uso
 
